@@ -11,20 +11,32 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <header class="site-header">
+      <a class="brand-mark" href="#top" aria-label="Naveen Raj V home">
+        <span>NR</span>
+      </a>
+      <nav aria-label="Portfolio sections">
+        <a href="#work">Work</a>
+        <a href="#projects">Projects</a>
+        <a href="#stack">Stack</a>
+        <a href="Naveen-Raj-Resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+      </nav>
+    </header>
+
     <main class="portfolio-shell">
-      <section class="hero-panel">
+      <section class="hero-panel" id="top">
         <div class="hero-copy">
-          <p class="eyebrow">Software Engineer Intern | AI/ML Builder</p>
+          <p class="eyebrow">Software Engineer Intern | Philips Group Functions IT</p>
           <h1>Naveen Raj V</h1>
           <p class="hero-quote">
-            I do not just build dashboards. I build the AI that helps teams
-            understand what matters faster.
+            AI-driven analytics engineer building the layer between enterprise
+            data, business decisions, and usable product experiences.
           </p>
           <p class="hero-summary">
             M.Tech Computer Science with AI/ML specialization from Tamil Nadu,
-            India. In six months, I went from learning APIs to shipping
-            end-to-end analytics products for enterprise finance teams at
-            Philips Group Functions IT.
+            India. In six months at Philips, I moved from learning APIs to
+            shipping end-to-end finance analytics products across React,
+            FastAPI, Databricks, Power BI, DAX, and SQL.
           </p>
           <div class="hero-actions">
             <a class="primary-link" href="Naveen-Raj-Resume.pdf" target="_blank" rel="noreferrer">
@@ -36,16 +48,23 @@
           </div>
         </div>
 
-        <aside class="hero-card">
-          <span class="card-label">Quick Links</span>
-          <a href="mailto:Naveenraj180104@gmail.com">Naveenraj180104@gmail.com</a>
-          <a href="http://www.linkedin.com/in/naveen-raj04" target="_blank" rel="noreferrer">
-            linkedin.com/in/naveen-raj04
-          </a>
-          <a href="https://github.com/naveen18004" target="_blank" rel="noreferrer">
-            github.com/naveen18004
-          </a>
-          <p>Best code = chai + curiosity.</p>
+        <aside class="profile-panel" aria-label="Profile snapshot">
+          <div class="portrait-mark">
+            <span>NRV</span>
+          </div>
+          <div>
+            <p class="card-label">Current Focus</p>
+            <h2>Enterprise AI + Finance Analytics</h2>
+          </div>
+          <div class="profile-links">
+            <a href="mailto:Naveenraj180104@gmail.com">Naveenraj180104@gmail.com</a>
+            <a href="http://www.linkedin.com/in/naveen-raj04" target="_blank" rel="noreferrer">
+              linkedin.com/in/naveen-raj04
+            </a>
+            <a href="https://github.com/naveen18004" target="_blank" rel="noreferrer">
+              github.com/naveen18004
+            </a>
+          </div>
         </aside>
       </section>
 
@@ -64,10 +83,10 @@
         </article>
       </section>
 
-      <section class="content-grid">
-        <div class="feature-panel">
+      <section class="content-grid" id="work">
+        <div class="feature-panel feature-panel-wide">
           <p class="section-kicker">What I Built</p>
-          <h2>Enterprise analytics products with an AI-first point of view.</h2>
+          <h2>Enterprise analytics products shaped around decision speed.</h2>
           <ul class="highlights-list">
             <li>Built an end-to-end AI FP&amp;A KPI Tree platform with React, FastAPI, and Databricks.</li>
             <li>Created scenario simulation flows that let finance leaders model business outcomes instantly.</li>
@@ -78,7 +97,7 @@
 
         <div class="feature-panel feature-panel-accent">
           <p class="section-kicker">Learning Journey</p>
-          <h2>From fundamentals to production delivery, fast.</h2>
+          <h2>Fast ramp from fundamentals to product delivery.</h2>
           <div class="journey-row">
             <span>Power BI + DAX</span>
             <span>React + TypeScript</span>
@@ -93,10 +112,10 @@
         </div>
       </section>
 
-      <section class="experiments-panel">
+      <section class="experiments-panel" id="projects">
         <div class="section-heading">
-          <p class="section-kicker">AI Experiments</p>
-          <h2>Projects that moved from idea to usable internal tools.</h2>
+          <p class="section-kicker">Selected Projects</p>
+          <h2>Useful internal tools, not demo-only AI.</h2>
         </div>
         <div class="experiments-grid">
           <article>
@@ -130,7 +149,7 @@
         </div>
       </section>
 
-      <section class="bottom-grid">
+      <section class="bottom-grid" id="stack">
         <article class="vision-panel">
           <p class="section-kicker">5-Year Direction</p>
           <h2>Lead AI-first product teams that make complex data truly useful.</h2>
@@ -159,7 +178,7 @@
 
       <section class="cta-panel">
         <p class="section-kicker">Resume Access</p>
-        <h2>Anyone with the portfolio link can open the PDF resume directly.</h2>
+        <h2>Open the PDF resume directly from this portfolio.</h2>
         <p>
           The resume is hosted as part of this site, so recruiters can browse
           the portfolio and open the PDF without needing a separate share flow.
